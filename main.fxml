@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0081b8da" height="406.0" layoutX="-6.0" layoutY="-5.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="608.0" />
+      <Polyline fill="#009e9ec9" layoutX="107.0" layoutY="165.0" points="-113.0, -170.0, 265.0, 6.0, 495.0, 236.0, -113.0, 242.0" strokeType="INSIDE" strokeWidth="0.0" />
+      <Button layoutX="227.0" layoutY="168.0" mnemonicParsing="false" onAction="#BStartAction" prefHeight="65.0" prefWidth="146.0" text="Start" />
+      <Text fill="WHITE" layoutX="139.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jogo da Velha">
+         <font>
+            <Font name="Ubuntu Medium" size="49.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
